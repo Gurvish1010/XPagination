@@ -68,7 +68,7 @@ const App =()=>{
       <div className="pagination">
         <button 
           onClick={PrevB} 
-          disabled={currentPage === 1}
+          
           className="nav-btn"
         >
           Previous
@@ -80,7 +80,7 @@ const App =()=>{
 
         <button 
           onClick={NextB} 
-          disabled={currentPage === Pages}
+          
           className="nav-btn"
         >
           Next
